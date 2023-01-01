@@ -1,0 +1,19 @@
+
+# optional to add private key to ssh agent
+eval "$(ssh-agent -s)"
+touch  /root/.ssh/id_ed25519
+chmod 600 /root/.ssh/id_ed25519
+
+cat <<EOT >> /root/.ssh/id_ed25519
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBMI+odU0EflAiKM04oGyOMJw3FNNxDKbVSMArE9q71IQAAAKDcJi013CYt
+NQAAAAtzc2gtZWQyNTUxOQAAACBMI+odU0EflAiKM04oGyOMJw3FNNxDKbVSMArE9q71IQ
+AAAEATyynAdU0jLQkTJIcgbrAwgVkxotDDghdMCr82Mq1CUkwj6h1TQR+UCIozTigbI4wn
+DcU03EMptVIwCsT2rvUhAAAAGnNpbWluLnNhZGFuYW5kYW5AZ21haWwuY29tAQID
+-----END OPENSSH PRIVATE KEY-----
+EOT
+
+ssh-add ~/.ssh/id_ed25519
+git config --global user.email "simin.sadanandan@gmail.com"
+git clone git@github.com:siminsadanandan/katacoda-scenarios.git
