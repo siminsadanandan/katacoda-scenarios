@@ -1,8 +1,8 @@
-Snowflake data seeding
+#Snowflake data seeding
 
 References: 
-https://medium.com/snowflake/flaker-2-0-fake-snowflake-data-the-easy-way-dc5e65225a13
-https://www.snowflake.com/blog/synthetic-data-generation-at-scale-part-1/
+<https://medium.com/snowflake/flaker-2-0-fake-snowflake-data-the-easy-way-dc5e65225a13>
+<https://www.snowflake.com/blog/synthetic-data-generation-at-scale-part-1/>
 
 
 Faker UDF is based on python faker library - https://faker.readthedocs.io/en/master/index.html
