@@ -9,6 +9,7 @@ Faker UDF is based on python faker library - <https://faker.readthedocs.io/en/ma
 
 — Step#1 You need to be ORGADMIN to enable Anaconda faker python package
 
+![img] (https://github.com/siminsadanandan/katacoda-scenarios/blob/696f3c75ebec013bd1a64b730626ceae2f54c862/sf-config-image.jpg)
 
 — Step#2 Once the above step is complete you can create the UDF FAKE function which uses python faker library. 
 
