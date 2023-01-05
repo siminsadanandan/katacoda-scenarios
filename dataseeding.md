@@ -8,7 +8,7 @@ Faker UDF is based on python faker library - <https://faker.readthedocs.io/en/ma
 
 
 — Step#1 You need to be ORGADMIN to enable Anaconda faker python package
-![][image_ref_a32ff4ads]
+![image_ref_a32ff4ads]
 
 
 — Step#2 Once the above step is complete you can create the UDF FAKE function which uses python faker library. 
