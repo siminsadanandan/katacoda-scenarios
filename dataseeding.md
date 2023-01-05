@@ -11,6 +11,8 @@ Faker UDF is based on python faker library - <https://faker.readthedocs.io/en/ma
 
 ![](https://github.com/siminsadanandan/katacoda-scenarios/blob/e4e3175869895087634a6833a22a77e66740e819/Pasted%20Graphic%204.jpg)
 
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+
 
 — Step#2 Once the above step is complete you can create the UDF FAKE function which uses python faker library. 
 
